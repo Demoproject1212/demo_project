@@ -7,7 +7,7 @@ import Footer from './components/Footer.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div>
+  <div className='container'>
     <Navbar/>
     <App/>
     <Footer/>
