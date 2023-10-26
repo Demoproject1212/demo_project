@@ -1,0 +1,14 @@
+.custom-button {
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    float: left;
+    width: 30vh;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+
+}
