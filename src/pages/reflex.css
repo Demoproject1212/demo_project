@@ -1,0 +1,49 @@
+.card-container11 {
+    padding-top: 20px;
+}
+
+/* Remove the border from the first two cards */
+.card-container11 .row .col-4:not(:last-child) .card {
+    border: none;
+    border-radius: 0;
+}
+
+/* Add a black border to the third card */
+.card-container11 .row .col-4:last-child .card {
+    border: 2px solid black;
+    border-radius: 0;
+}
+
+.custom-card {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.card-title11 {
+    text-align: left;
+}
+
+
+.card-title11 {
+    text-align: left;
+}
+
+.card-text11 {
+    text-align: left;
+}
+
+.card-right {
+    margin-left: 10px; /* Adjust the margin as needed to move the cards to the right */
+}
+.custom-image {
+    width: 280px;
+    height: 240px;
+}
+
+@media (max-width: 768px) {
+    .custom-card {
+        max-width: 100%; /* Allow the card to occupy the full width */
+    }
+}

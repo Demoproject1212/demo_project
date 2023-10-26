@@ -1,0 +1,36 @@
+.card-container{
+    padding-top: 20px;
+}
+.card-container .row .col-4:first-child .card {
+    border: 2px solid black;
+    border-radius: 0;
+}
+
+/* Remove the border from the other two cards */
+.card-container .row .col-4:not(:first-child) .card {
+    border: none;
+    border-radius: 0;
+}
+.custom-card {
+    width: 280px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+.card-title1{
+    text-align: left;
+}
+.card-body{
+    padding-top: 70px;
+}
+.card-title{
+    text-align: left;
+}
+.card-text{
+    text-align: left;
+}
+.card-right {
+    margin-left: 10px; /* Adjust the margin as needed to move the cards to the right */
+}
+
+
