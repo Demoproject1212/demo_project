@@ -1,8 +1,8 @@
 import React from "react";
-
+import "./skincare.css";
 function Skincare() {
   return (
-    <div className="container">
+    <div className="sk-container">
     <div className="row">
       <h1>WE PERSONALIZE SKINCARE</h1>
       <p>to make a postive impact in people's lives</p>
