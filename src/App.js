@@ -13,14 +13,18 @@ import Spa from './pages/Spa';
 function App() {
   return (
     <div className="App">
+      
+      {/*Abhijith*/}
       <Hero/>
       <Spa/>
       <Reflexology_massage/>
+      {/*Arun*/}
       <Skincare/>
       <Natural/>
+      {/*Abhinav Joy c*/}
       <Our_therapist/>
       <Everyday_skincare/>
-      
+      {/*Arun*/}
       <Enquire/>
     </div>
   );
