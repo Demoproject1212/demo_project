@@ -1,3 +1,6 @@
+import React from 'react';
+
+
 function Navbar(){
     return(
 <nav class="bg-gray-800">
