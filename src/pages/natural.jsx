@@ -2,27 +2,38 @@ import React from "react";
 import { Row, Col, Container, Button } from "react-bootstrap";
 import Ni from "../images/natural.png";
 
-function Natural() {
-    return (
-        <Container fluid className="mt-5">
-            <Row>
-                {/* Left Column */}
-                <Col md={4} className="d-flex flex-column justify-content-center align-items-start pl-5">
-                <h1 className="mb-1 border">
-    THE POWER OF NATURE
-</h1>
-                    <p className="text-left mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at.</p>
-                    <Button variant="dark">Learn more</Button>
-                </Col>
+function CustomDesign() {
+  return (
+    <Container fluid className="mt-5 mb-5">
+      <Row>
+        <Col
+          md={4}
+          className="d-flex flex-column justify-content-center align-items-start pl-5"
+        >
+          <Row
+    className="pl-5 border w-100 mt-0 d-flex align-items-center"
+    style={{ height: "60%" }}
+>
+    <h1>THE POWER OF NATURE</h1>
+</Row>
 
-                {/* Right Column */}
-                <Col md={8} className="d-flex flex-wrap justify-content-end pr-5">
-                    <img src={Ni} alt="Natural" className="img-fluid" />
-
-                </Col>
-            </Row>
-        </Container>
-    );
+          <Row>
+            <p className="text-left mt-4 mb-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <br />
+              Cras rutrum iaculis enim, non convallis felis mattis at.
+            </p>
+          </Row>
+          <Row className="mt-3">
+            <Button variant="dark">Learn more</Button>
+          </Row>
+        </Col>
+        <Col md={8} className="d-flex flex-wrap justify-content-end pr-5">
+          <img src={Ni} alt="Description" className="img-fluid mb-2" />
+        </Col>
+      </Row>
+    </Container>
+  );
 }
 
-export default Natural;
+export default CustomDesign;
