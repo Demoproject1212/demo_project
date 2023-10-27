@@ -24,6 +24,13 @@ function OurTherapist() {
         marginBottom: "40px",
         textAlign: "center",
     };
+    const captionStyle1 = {
+        fontSize: "16px",
+        maxWidth: "645px", // Reduced max width for the quote
+        lineHeight: "1.5",
+        marginBottom: "40px",
+        textAlign: "center",
+    };
 
     const profileContainerStyle = {
         display: "flex",
@@ -73,7 +80,7 @@ function OurTherapist() {
     return (
         <div style={containerStyle}>
             <h1 style={headingStyle}>OUR SKIN CARE EXPERTS</h1>
-            <p style={captionStyle}>
+            <p style={captionStyle1}>
                 Skincare's not just our job - it's our obsession. A persistent search for the best products and techniques. A love of using our hands to heal. And a commitment to empowering you to better your skin every day.
             </p>
             <div style={profileContainerStyle}>

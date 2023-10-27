@@ -1,0 +1,29 @@
+.everyday-backg {
+    background-image: url("https://img.freepik.com/premium-photo/left-aligned-black-white-bokeh-background-hd_199726-6829.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust the height as needed */
+}
+
+.everyday-content {
+    padding-top: 60px;
+    text-align: right;
+    padding-right: 150px;
+}
+
+.everyday-para {
+    padding-top: 10px;
+    padding-right: 97px;
+    font-style: italic;
+}
+
+.everyday-content-container {
+    border: 2px solid black; /* Add a black border to the container */
+    padding: 20px; /* Add padding to the container as needed */
+    width: 400px;
+    height: 260px; /* Set the height to create a square */
+    display: inline-block; /* Make the container inline-block so it wraps the text */
+    text-align: left;
+    padding-left: 30px;
+    margin-left: 40px;
+}
