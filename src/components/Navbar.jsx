@@ -38,7 +38,7 @@ function Navbar() {
               >
                 <i className="bi bi-list"></i>
               </button>
-              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
                 <li>
                   <a className="dropdown-item" href="#">
                     Action

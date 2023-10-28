@@ -1,14 +1,14 @@
 .card-container11 {
     padding-top: 20px;
+    padding-left: 160px;
 }
 
-/* Remove the border from the first two cards */
 .card-container11 .row .col-4:not(:last-child) .card {
     border: none;
     border-radius: 0;
 }
 
-/* Add a black border to the third card */
+
 .card-container11 .row .col-4:last-child .card {
     border: 2px solid black;
     border-radius: 0;
@@ -25,25 +25,39 @@
     text-align: left;
 }
 
-
-.card-title11 {
-    text-align: left;
-}
-
-.card-text11 {
-    text-align: left;
-}
-
-.card-right {
-    margin-left: 10px; /* Adjust the margin as needed to move the cards to the right */
-}
 .custom-image {
-    width: 280px;
-    height: 240px;
+    width: 85%; 
+    height: auto; 
 }
 
 @media (max-width: 768px) {
+    .card-container11 .row .col-4 {
+        margin-bottom: 20px; 
+    }
+
     .custom-card {
-        max-width: 100%; /* Allow the card to occupy the full width */
+        width: 100%; 
+        height: auto; 
+    }
+
+    .card-container11 .row .col-4:last-child .card {
+        border: 2px solid black; 
+    }
+
+    .card-title11 {
+        text-align: center; 
+    }
+    
+    .card-text11 {
+        text-align: center; 
+    }
+
+    .custom-image {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .card-right {
+        margin-left: 0;
     }
 }
