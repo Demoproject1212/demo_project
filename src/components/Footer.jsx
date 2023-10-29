@@ -3,8 +3,7 @@ import "./footer.css";
 function Footer() {
     return (
         <footer className="footer">
-            <div className="container">
-                <div className="row">
+            <div className="row">
                     <div className="col-md-4">
                         <p>Sample footer text</p>
                     </div>
@@ -18,7 +17,6 @@ function Footer() {
                         <i className="bi bi-linkedin"></i>
                     </div>
                 </div>
-            </div>
         </footer>
     );
 }
