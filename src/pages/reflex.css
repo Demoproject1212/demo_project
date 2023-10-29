@@ -1,5 +1,6 @@
 .card-container11 {
     padding-top: 50px;
+    padding-left: 180px;
 }
 
 .card-container11 .row .col-4:not(:last-child) .card, 
@@ -38,6 +39,7 @@
 @media (max-width: 768px) {
     .card-container11 {
         padding-top: 20px;
+        padding-left: 0px;
     }
     
     .card-container11 .row .col-4:not(:last-child) .card, 
