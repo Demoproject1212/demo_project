@@ -1,5 +1,5 @@
 .card-container11 {
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .card-container11 .row .col-4:not(:last-child) .card, 
@@ -7,12 +7,14 @@
 .card-container11 .row .col-sm-12:not(:last-child) .card {
     border: none;
     border-radius: 0;
+    padding-right: 70px;
 }
 
 .card-container11 .row .col-4:last-child .card, 
 .card-container11 .row .col-md-12:last-child .card {
     border: 2px solid black;
     border-radius: 0;
+    padding-top: 70px;
 }
 
 .custom-card, .custom-card11 {
@@ -27,14 +29,45 @@
 }
 
 .custom-image {
-    width: 100%; 
-    height: auto; 
+    width: 10cm; 
+    height: 7cm; 
     display: block;
     margin: 0 auto;
 }
 
 @media (max-width: 768px) {
+    .card-container11 {
+        padding-top: 20px;
+    }
+    
+    .card-container11 .row .col-4:not(:last-child) .card, 
+    .card-container11 .row .col-md-6:not(:last-child) .card,
+    .card-container11 .row .col-sm-12:not(:last-child) .card {
+        border: none;
+        border-radius: 0;
+    }
+    
+    .card-container11 .row .col-4:last-child .card, 
+    .card-container11 .row .col-md-12:last-child .card {
+        border: 2px solid black;
+        border-radius: 0;
+        padding-bottom: 50px;
+    }
+    
+    .custom-card, .custom-card11 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .card-title1 {
+        text-align: left;
+    }
     .card-title1, .card-text11 {
         text-align: center; 
+    }
+    .card-container11 .row .col-md-12:last-child .custom-card {
+        margin-left: 65px; /* Adjust the value as needed */
     }
 }

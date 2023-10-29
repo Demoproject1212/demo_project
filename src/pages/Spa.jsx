@@ -2,9 +2,9 @@ import React from "react";
 import './Spa.css';
 const cardData = [
     {
-        title: "We Offer A Wide",
-        subtitle: "Selection Of",
-        description: "Spa Services"
+        title: "WE OFFER A WIDE",
+        subtitle: "SELECTION OF",
+        description: "SPA SERVICES"
     },
     {
         title: "Body treatments care for the skin of the whole body!",
@@ -28,7 +28,7 @@ function Spa() {
                             <div className="card-body">
                                 <h5 className="card-title1"><b>{card.title}</b></h5>
                                 <h5 className="card-title1"><b>{card.subtitle}</b></h5>
-                                {card.description && <p className="card-text"><b>{card.description}</b></p>}
+                                {card.description && <h5 className="card-title1"><b>{card.description}</b></h5>}
                                 {card.button && <button className="btn btn-primary float-start">{card.button}</button>}
                             </div>
                         </div>
