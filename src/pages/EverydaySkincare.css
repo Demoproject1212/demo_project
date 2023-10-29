@@ -27,3 +27,27 @@
     padding-left: 30px;
     margin-left: 40px;
 }
+
+
+@media (max-width: 768px) {
+    .everyday-backg {
+        height: 300px; 
+    }
+
+    .everyday-content {
+        padding-top: 20px;
+        text-align: center; 
+        padding-right: 0;
+    }
+
+    .everyday-para {
+        padding-top: 10px;
+        padding-right: 0;
+    }
+
+    .everyday-content-container {
+        width: 100%; 
+        height: auto; 
+        margin-left: 0;
+    }
+}

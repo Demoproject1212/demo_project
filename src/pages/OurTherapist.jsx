@@ -1,63 +1,6 @@
 import React from "react";
-
+import './Therapist.css';
 function OurTherapist() {
-    const containerStyle = {
-        backgroundColor: "#ccc",
-        minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        padding: "20px",
-    };
-
-    const headingStyle = {
-        fontSize: "24px",
-        fontWeight: "bold",
-        marginBottom: "20px",
-    };
-
-    const captionStyle = {
-        fontSize: "16px",
-        maxWidth: "260px", // Reduced max width for the quote
-        lineHeight: "1.5",
-        marginBottom: "40px",
-        textAlign: "center",
-    };
-    const captionStyle1 = {
-        fontSize: "16px",
-        maxWidth: "645px", // Reduced max width for the quote
-        lineHeight: "1.5",
-        marginBottom: "40px",
-        textAlign: "center",
-    };
-
-    const profileContainerStyle = {
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "space-between",
-        width: "80%",
-        marginTop: "20px",
-    };
-
-    const profileStyle = {
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        marginBottom: "20px",
-    };
-
-    const imageStyle = {
-        width: "150px",
-        height: "150px",
-        borderRadius: "50%",
-    };
-
-    const nameStyle = {
-        fontWeight: "bold",
-        fontStyle: "italic",
-        fontSize: "16px",
-    };
 
     const therapistData = [
         {
@@ -78,21 +21,21 @@ function OurTherapist() {
     ];
 
     return (
-        <div style={containerStyle}>
-            <h1 style={headingStyle}>OUR SKIN CARE EXPERTS</h1>
-            <p style={captionStyle1}>
+        <div className="container"> {/* Use className instead of style */}
+            <h1 className="heading">OUR SKIN CARE EXPERTS</h1> {/* Use className instead of style */}
+            <p className="caption"> {/* Use className instead of style */}
                 Skincare's not just our job - it's our obsession. A persistent search for the best products and techniques. A love of using our hands to heal. And a commitment to empowering you to better your skin every day.
             </p>
-            <div style={profileContainerStyle}>
+            <div className="profile-container"> {/* Use className instead of style */}
                 {therapistData.map((therapist, index) => (
-                    <div key={therapist.name} style={profileStyle}>
+                    <div key={therapist.name} className="profile"> {/* Use className instead of style */}
                         <img
                             src={therapist.image}
                             alt={therapist.name}
-                            style={imageStyle}
+                            className="image" 
                         />
-                        <p style={captionStyle}>{therapist.caption}</p>
-                        <p style={nameStyle}>{therapist.name}</p>
+                        <p className="caption">{therapist.caption}</p> {/* Use className instead of style */}
+                        <p className="name">{therapist.name}</p> {/* Use className instead of style */}
                     </div>
                 ))}
             </div>
