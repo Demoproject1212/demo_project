@@ -48,4 +48,8 @@
         border-radius: 0;
         padding-bottom: 30px;
     }
+    .custom-card .btn {
+        display: block;
+        margin-left: 65px;
+    }
 }

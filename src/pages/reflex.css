@@ -37,6 +37,9 @@
 }
 
 @media (max-width: 768px) {
+    .custom-image{
+        padding-left: 48px;
+    }
     .card-container11 {
         padding-top: 20px;
         padding-left: 0px;
@@ -70,6 +73,6 @@
         text-align: center; 
     }
     .card-container11 .row .col-md-12:last-child .custom-card {
-        margin-left: 65px; /* Adjust the value as needed */
+        margin-left: 80px; /* Adjust the value as needed */
     }
 }
