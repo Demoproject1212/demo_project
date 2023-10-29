@@ -1,5 +1,5 @@
 import React from "react";
-import './everyday_skincare.css'; // Import the CSS file
+import './EverydaySkincare.css'; // Import the CSS file
 
 function EverydaySkincare() {
     // Define the URL of the background image
