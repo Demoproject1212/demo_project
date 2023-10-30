@@ -2,11 +2,11 @@
   background-image: url("https://img.freepik.com/premium-photo/left-aligned-black-white-bokeh-background-hd_199726-6829.jpg");
   background-size: cover;
   background-position: center;
-  height: 400px; 
+  height: 600px; 
 }
 
 .content {
-  padding-top: 60px;
+  padding-top: 150px;
   text-align: right;
   padding-right: 150px;
 }
